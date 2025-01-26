@@ -1,0 +1,9 @@
+by\javaguru\payments\service\CreditCardProcessorRemoteService.class
+by\javaguru\payments\PaymentsServiceApplication.class
+by\javaguru\payments\dao\jpa\entity\PaymentEntity.class
+by\javaguru\payments\config\ApplicationConfig.class
+by\javaguru\payments\service\CreditCardProcessorRemoteServiceImpl.class
+by\javaguru\payments\dao\jpa\repository\PaymentRepository.class
+by\javaguru\payments\service\PaymentService.class
+by\javaguru\payments\config\KafkaConfig.class
+by\javaguru\payments\service\PaymentServiceImpl.class

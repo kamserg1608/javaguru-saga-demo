@@ -1,0 +1,24 @@
+POST http://localhost:8081/products
+Content-Type: application/json
+
+{
+  "name": "Samsung",
+  "price": 1000,
+  "quantity": 5
+}
+
+###
+
+###
+POST http://localhost:8080/orders
+Content-Type: application/json
+
+{
+  "customerId": "282b610d-bfa5-4201-9b34-32c3b245c02e",
+  "productId": "d11dee8a-4fb9-45e5-9c3c-13ddd2a095d8",
+  "productQuantity": 1
+}
+
+###
+
+GET http://localhost:8080/orders/6a492cc4-f1ff-4c01-b555-0173e20c6b30/history

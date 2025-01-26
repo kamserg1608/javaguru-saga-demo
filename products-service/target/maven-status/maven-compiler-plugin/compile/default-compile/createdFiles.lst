@@ -1,0 +1,9 @@
+by\javaguru\products\config\KafkaConfig.class
+by\javaguru\products\dao\jpa\entity\ProductEntity.class
+by\javaguru\products\web\controller\ProductsController.class
+by\javaguru\products\dto\ProductCreationRequest.class
+by\javaguru\products\service\ProductService.class
+by\javaguru\products\service\ProductServiceImpl.class
+by\javaguru\products\ProductsServiceApplication.class
+by\javaguru\products\dao\jpa\repository\ProductRepository.class
+by\javaguru\products\dto\ProductCreationResponse.class

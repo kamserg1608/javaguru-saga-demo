@@ -1,0 +1,15 @@
+by\javaguru\orders\dao\jpa\entity\OrderEntity.class
+by\javaguru\orders\service\OrderHistoryServiceImpl.class
+by\javaguru\orders\dto\OrderHistory.class
+by\javaguru\orders\dao\jpa\repository\OrderHistoryRepository.class
+by\javaguru\orders\dto\CreateOrderResponse.class
+by\javaguru\orders\service\OrderService.class
+by\javaguru\orders\service\OrderHistoryService.class
+by\javaguru\orders\dao\jpa\entity\OrderHistoryEntity.class
+by\javaguru\orders\service\OrderServiceImpl.class
+by\javaguru\orders\dao\jpa\repository\OrderRepository.class
+by\javaguru\orders\web\controller\OrdersController.class
+by\javaguru\orders\dto\OrderHistoryResponse.class
+by\javaguru\orders\OrdersServiceApplication.class
+by\javaguru\orders\config\KafkaConfig.class
+by\javaguru\orders\dto\CreateOrderRequest.class

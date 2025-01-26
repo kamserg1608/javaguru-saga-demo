@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>by.javaguru</groupId>
+    <artifactId>saga-pattern-spring-boot-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>${revision}</version>
+    <name>javaguru-sage-demo</name>
+    <description>javaguru-sage-demo</description>
+
+    <modules>
+        <module>core</module>
+        <module>orders-service</module>
+        <module>products-service</module>
+        <module>payments-service</module>
+        <module>credit-card-processor-service</module>
+    </modules>
+
+    <properties>
+        <java.version>21</java.version>
+        <revision>1.0.0</revision>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <type>pom</type>
+                <version>3.4.2</version>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

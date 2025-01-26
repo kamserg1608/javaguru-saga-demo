@@ -1,0 +1,9 @@
+by\javaguru\core\dto\CreditCardProcessRequest.class
+by\javaguru\core\dto\Product.class
+by\javaguru\core\dto\Payment.class
+by\javaguru\core\dto\Order.class
+by\javaguru\core\types\OrderStatus.class
+by\javaguru\core\dto\event\OrderCreatedEvent.class
+by\javaguru\core\exceptions\CreditCardProcessorUnavailableException.class
+by\javaguru\core\dto\Shipment.class
+by\javaguru\core\exceptions\ProductInsufficientQuantityException.class
